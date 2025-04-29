@@ -1,0 +1,30 @@
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scale: 1.5;
+}
+
+.start-btn {
+    background-color: #0b0b0b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.Answers {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1rem;
+}
